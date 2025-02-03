@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    function convertTemprature(temp,scale){
+        if(scale === 'C'){
+            result== (temp - 32) * 5/9;
+            console.log("converted temprature is: "+result);
+            }
+            else if(scale === 'F'){
+                return (temp * 9/5) + 32;
+                console.log("converted temprature is " + result);
+    }
+    else{
+        console.log("invalid scale");
+    }
+}
+convertTemprature(80,'f');
+convertTemprature(80,'c');
+convertTemprature(65,'f');
+convertTemprature(65,'c');
+convertTemprature(80,'F');
+convertTemprature(80,'C');
+
+   </script> 
+</body>
+</html>
